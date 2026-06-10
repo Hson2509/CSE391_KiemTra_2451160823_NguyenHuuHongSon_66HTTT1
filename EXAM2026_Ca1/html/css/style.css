@@ -1,0 +1,101 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f0f4f9;
+  color: #333;
+}
+
+.header-banner {
+  background: linear-gradient(135deg, #2563eb, #3b82f6);
+  border-radius: 16px;
+  padding: 2rem;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.card-custom {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  background: #ffffff;
+  height: 100%;
+}
+
+.form-label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.form-control,
+.form-select {
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #dee2e6;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.btn-submit {
+  background-color: #1d63ed;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.btn-submit:hover {
+  background-color: #154ec7;
+}
+
+.btn-reset {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  color: #495057;
+  font-weight: 500;
+}
+
+.btn-reset:hover {
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.table th {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #6c757d;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid #f1f3f5;
+}
+
+.table td {
+  padding: 1rem 0.75rem;
+  vertical-align: middle;
+  font-size: 0.95rem;
+}
+
+.badge-instock {
+  background-color: #e6f9f0;
+  color: #10b981;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  display: inline-block;
+}
+
+.badge-outstock {
+  background-color: #fee2e2;
+  color: #ef4444;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.8rem;
+  display: inline-block;
+}
