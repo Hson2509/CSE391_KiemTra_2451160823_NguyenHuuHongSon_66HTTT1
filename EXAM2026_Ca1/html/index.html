@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="../bootstrap-5.3.8-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
 
-
 </head>
 
 <body>
@@ -20,12 +19,57 @@
                 ràng.</p>
         </div>
 
+        <div class="row g-4">
+            <div class="col-lg-4">
+                <div class="card card-custom p-4">
+                    <h4 class="fw-bold mb-1" style="font-size: 1.25rem;">Thêm sản phẩm mới</h4>
+                    <p class="text-muted small mb-4">Nhập đầy đủ thông tin để thêm sản phẩm vào danh sách.</p>
 
-    </div>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Tên sản phẩm</label>
+                            <input type="text" name="name" class="form-control" placeholder="Nhập tên sản phẩm">
+                        </div>
 
-    <script src="jquery-4.0.0.min.js"></script>
-    <script src="jquery.validate.min.js"></script>
-    <script src="./bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+                        <div class="mb-3">
+                            <label for="category" class="form-label">Danh mục</label>
+                            <select class="form-select text-muted" name="category">
+                                <option selected>-- Chọn danh mục --</option>
+                                <option value="1">Điện thoại</option>
+                                <option value="2">Máy tính bảng</option>
+                                <option value="3">Laptop</option>
+                                <option value="4">Phụ kiện</option>
+                                <option value="5">Tai nghe</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="price" class="form-label">Giá</label>
+                            <input type="text" class="form-control" name="price" placeholder="Nhập giá">
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="status" class="form-label">Trạng thái còn hàng</label>
+                            <select class="form-select" name="satus">
+                                <option value="1" selected>Còn hàng</option>
+                                <option value="2">Hết hàng</option>
+                            </select>
+                        </div>
+
+                        <div class="d-flex gap-2">
+                            <button type="submit" class="btn btn-primary btn-submit flex-grow-1">Thêm sản phẩm</button>
+                            <button type="reset" class="btn btn-reset">Làm mới form</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+
+        <script src="jquery-4.0.0.min.js"></script>
+        <script src="jquery.validate.min.js"></script>
+        <script src="./bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
